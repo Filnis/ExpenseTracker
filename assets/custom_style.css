@@ -1,0 +1,38 @@
+:root {
+    --ocean: #1e90ff;
+    --teal: #20c997
+    ;
+  }
+/* .nav-pills .nav-link.active {
+    color: #fff;
+    background-color: orange;
+} */
+
+.nav-pills a, .nav-pills a:hover{
+    color: black;
+}
+
+.nav-link:hover{
+    color: black;
+    background-color: lightskyblue;
+}
+
+@media screen and (min-width: 992px) {
+    #carContainer {
+        height: 93vh
+    }
+    #invContainer {
+        height: 90vh
+    }
+    #expContainer{
+        height: 89vh
+    }
+}
+
+.ag-theme-alpine {
+    --ag-header-height: 30px !important;
+}
+
+.ag-theme-alpine .ag-header {
+    font-weight: 900; 
+}

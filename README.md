@@ -50,8 +50,13 @@ This tab provides an overview of the current situation of the user's stock portf
 
 ![image](https://github.com/user-attachments/assets/127eda89-c5af-499b-8a2e-0cbd3446ec0c)
 
-Stock data is feteched from Yahoo! Finance using the library yfinance (https://pypi.org/project/yfinance/). Transaction should be recorded in the Excel file by writing the stock ticker, the stock exchange code and the amount of stocks purchased in the "Memo". The syntax is as follows: <code>TICKER.EXCHANGE:QUANTITY</code>.
-In the example below 2 AAPL stocks have been bought in the Vienna exchange, and 10 ENI stocks in Milan's exchange.
+Stock data is feteched from Yahoo! Finance using the library yfinance (https://pypi.org/project/yfinance/). Transactions should be recorded in the Excel file by writing the stock ticker, the stock exchange code and the amount of stocks purchased in the "Memo" with this syntax: <code>TICKER.EXCHANGE:quantity</code>.
+In the example below the user has bough 2 AAPL stocks in Vienna's exchange and 10 ENI stocks in Milan's exchange.
 
 ![image](https://github.com/user-attachments/assets/a5b5daa3-ac92-443f-8995-6edc33de7b5d)
+
+### Accounts
+This tab shows a summary of all the money in the different accounts, including stocks.
+
+![image](https://github.com/user-attachments/assets/e9db6e7c-7da6-4d44-a67b-2a14da7752e6)
 

@@ -39,8 +39,19 @@ The tab *Car* contains detailed information on car-related expenses. Categories 
 
 The fuel efficicency measures can be calculated if the user records its transactions in the following way:
 <ul>
-  <li>Memo: distance shown on the odometer when the car is re-fueled (d=xxx) and liters of fuel (v=yyy) for a full refill. With partial refills it's not possible to calculate the car efficiency and the related mesures</li>
+  <li>Memo: distance shown on the odometer when the car is re-fueled (d=xxx) and liters of fuel (v=yyy) for a full refill. With partial refills it's not possible to calculate the car efficiency and the related measures</li>
   <li>Category: <em>Car:Fuel</em></li>
 </ul>
 
 ![image](https://github.com/user-attachments/assets/ba9919d9-e145-478b-8956-c31a9cb00636)
+
+### Investments
+This tab provides an overview of the current situation of the user's stock portfolio, as well as historical performance.
+
+![image](https://github.com/user-attachments/assets/127eda89-c5af-499b-8a2e-0cbd3446ec0c)
+
+Stock data is feteched from Yahoo! Finance using the library yfinance (https://pypi.org/project/yfinance/). Transaction should be recorded in the Excel file by writing the stock ticker, the stock exchange code and the amount of stocks purchased in the "Memo". The syntax is as follows: <code>TICKER.EXCHANGE:QUANTITY</code>.
+In the example below 2 AAPL stocks have been bought in the Vienna exchange, and 10 ENI stocks in Milan's exchange.
+
+![image](https://github.com/user-attachments/assets/a5b5daa3-ac92-443f-8995-6edc33de7b5d)
+
